@@ -1,11 +1,18 @@
-import React from 'react'
+import { Category } from '@material-ui/icons';
+import CategoriesSec from './HomePage/CategoriesSec';
+import React from 'react';
+import Nav from './HomePage/Nav';
+import Home from './HomePage/Home'
+import './HomePage/styles/main.scss'
 
-import Counter from './components/Counter'
+
 
 function App() {
   return (
     <div className="App">
-       <Counter/>
+       <Nav/>
+       <CategoriesSec/>
+       <Home/>
     </div>
   );
 }
